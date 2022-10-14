@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+* {
+  margin: 0;
+  padding :0;
+  box-sizing: border-box;
+ 
+}
+
+
+
+:root {
+  --color-bg: #111;
+  --color-error: #CF6679;
+  --color-primary: #bb86fc;
+  --color-primary-variant: #3700b3;
+  --color-secondary: #03dac6;
+  --text-light: #a5a5a5;
+  --transition: all .3s 
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Silkscreen', cursive;
+  
+}
+
+body::-webkit-scrollbar{
+  background-color: var(--color-bg);
+  width: 15px;
+  
+}
+body::-webkit-scrollbar-thumb{
+  border-radius: 8px;
+  background-color: var(--color-primary);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
