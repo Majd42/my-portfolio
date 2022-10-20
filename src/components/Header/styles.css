@@ -110,6 +110,12 @@ nav ul {
     
 }
 
+@media screen and  (max-width:720px){
+    .burger-div {
+        margin-right: 0rem;
+    }
+}
+
 
 @keyframes type-first {
     30%{
