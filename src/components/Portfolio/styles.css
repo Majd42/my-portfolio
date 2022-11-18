@@ -39,7 +39,7 @@
 
 .project {
     
-    animation: projectsSlide steps(10) .7s forwards;
+    animation: projectsSlide  .7s forwards;
     display: flex;
     gap: 2rem;
     

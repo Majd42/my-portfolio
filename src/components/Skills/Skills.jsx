@@ -87,7 +87,7 @@ const Skills = () => {
             <div className="progress-bar">
               <div className="progress-percent node">
                 <div className="progress-percent-number">
-                  40%
+                  65%
                 </div>
               </div>
             </div>
@@ -97,7 +97,7 @@ const Skills = () => {
             <div className="progress-bar">
               <div className="progress-percent express">
                 <div className="progress-percent-number">
-                  20%
+                  60%
                 </div>
               </div>
             </div>

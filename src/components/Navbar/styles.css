@@ -17,7 +17,7 @@
     
     width: 85%;
     overflow: hidden;
-    animation: navSlide .5s steps(10) forwards;
+    animation: navSlide .5s  forwards;
 }
 
 

@@ -23,7 +23,7 @@
 .content-container .contact-btns {
     display: flex;
     gap: 2rem;
-    animation: firstlineSlide .5s .35s steps(10) forwards;
+    animation: firstlineSlide .5s .35s  forwards;
     margin-top: 2rem;
     opacity: 0;
     overflow: hidden;
@@ -58,7 +58,7 @@
     color: white;
     font-size: 3.5rem;
     line-height: 1.4;
-    animation: firstlineSlide steps(5) .4s forwards;
+    animation: firstlineSlide  .4s forwards;
     overflow: hidden;
     opacity: 0;
     
@@ -73,7 +73,7 @@
 
 .content-container .third-h {
     color: var(--color-secondary);
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Source Code Pro', monospace;
 
     text-transform: uppercase;
     animation-delay: .3s;
@@ -99,8 +99,8 @@
     font-size: 3rem;
     text-align: center;
     border-radius: 50%;
-    
-    animation: fadeNext .5s 3s steps(3) forwards;
+    transition: all .3s ease-in-out;
+    animation: fadeNext .5s 3s  forwards;
     opacity: 0;
     
     
