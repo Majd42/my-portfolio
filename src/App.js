@@ -25,8 +25,8 @@ function App() {
       img: ecommerceImg,
       discription:'an online Shop where you can add items to your cart and which updates dynamicaly and finally finish your purchase with payment.',
       technologies: 'React.js, MaterialUi, JSX, CSS',
-      url:'https://storied-nougat-215d87.netlify.app/',
-      git:'https://github.com/Majd42/e-commerce',
+      url:'https://shopinonline.netlify.app/',
+      git:'https://github.com/Majd42/fullstack-ecommerce',
     },
 
     {
