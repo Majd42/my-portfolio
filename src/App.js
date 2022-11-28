@@ -25,7 +25,7 @@ function App() {
       img: ecommerceImg,
       discription:'A Fullstack online Shop with a dynamic cart system and payment method to finalize your order.',
       technologies: 'React.js, MaterialUi, JSX, CSS, node.js, express.js',
-      url:'https://shopinonline.netlify.app/',
+      url:'https://shopinonline.netlify.app/store',
       git:'https://github.com/Majd42/fullstack-ecommerce',
     },
 
