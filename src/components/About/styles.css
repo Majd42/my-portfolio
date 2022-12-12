@@ -4,7 +4,7 @@
     background-color: var(--color-bg);
     padding-top: 4rem;
     color: white;
-    
+    overflow: hidden;
     
 }
 
@@ -12,21 +12,112 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    max-width: 1024px;
     height: 100%;
-}
-
-.about-container h1 {
-    color: var(--color-secondary);
-    font-size: 2rem;
-}
-
-.about-container p{
-    color: var(--text-light);
+    gap: 4rem;
+    margin: 0 auto;
     
 }
 
-.about-links {
+.about-content {
+
     display: flex;
+    flex-direction: column;
     gap: 1rem;
+    animation: slideAboutInfo .5s forwards;
+    
+    
+}
+
+.about-content h1 {
+    font-size:2.5rem;
+    margin-bottom: .5rem;
+    color:var(--color-secondary)
+}
+
+
+.list-info {
+    color: var(--text-light);
+    list-style-type: none   ;
+}
+
+
+.list-info li {
+    margin-bottom: 1rem;
+    
+}
+
+.degree {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    border: 1px solid var(--color-secondary);
+    padding: 2rem;
+    border-radius: .5rem;
+    animation: slideAboutDegree .8s  forwards;
+    
+}
+
+.degree h2 {
+    color:var(--color-secondary);
+}
+
+.location {
+    color:var(--text-light)
+}
+
+.about-actions{
+    margin-top: 1rem;
+}
+
+.about-actions a {
+    color: var(--color-secondary);
+    border: 1px solid var(--color-secondary);
+    text-decoration: none;
+    padding: .4rem .7rem;
+    transition: all .2s ease-in-out;
+}
+
+.about-actions a:hover{
+    color: white;
+    background-color: var(--color-secondary);
+}
+
+@media screen and (max-width:1030px) {
+
+    .about {
+        height: max-content;
+        padding-bottom: 2rem;
+        
+    }
+    .about-container{
+        flex-direction: column;
+        width: 80%;
+    }
+}
+
+
+@keyframes slideAboutInfo {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes slideAboutDegree {
+    from {
+        opacity: 0;
+        transform: translateY(-100%);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

@@ -3,7 +3,7 @@ import './styles.css'
 import {BiRightArrowAlt} from 'react-icons/bi'
 import {motion} from 'framer-motion'
 import { Link } from 'react-router-dom'
-import CV from '../../assets/CV.pdf'
+import CV from '../../assets/MajdShaheen-React.js.pdf'
 const Home = () => {
 
 

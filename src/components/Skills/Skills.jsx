@@ -43,7 +43,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skill">
-            <h1>React.js</h1>
+            <h1>React</h1>
             <div className="progress-bar">
               <div className="progress-percent react">
                 <div className="progress-percent-number">
@@ -83,7 +83,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skill">
-            <h1>node.js</h1>
+            <h1>node</h1>
             <div className="progress-bar">
               <div className="progress-percent node">
                 <div className="progress-percent-number">
@@ -93,7 +93,7 @@ const Skills = () => {
             </div>
           </div>
           <div className="skill">
-            <h1>Express.js</h1>
+            <h1>EXPRESS</h1>
             <div className="progress-bar">
               <div className="progress-percent express">
                 <div className="progress-percent-number">
